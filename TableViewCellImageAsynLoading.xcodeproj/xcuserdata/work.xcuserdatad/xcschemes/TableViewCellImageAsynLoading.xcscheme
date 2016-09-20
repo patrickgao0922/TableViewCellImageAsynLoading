@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "963574A41D9113DD00B8D1A5"
+               BuildableName = "TableViewCellImageAsynLoading.framework"
+               BlueprintName = "TableViewCellImageAsynLoading"
+               ReferencedContainer = "container:TableViewCellImageAsynLoading.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -26,6 +42,15 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "963574A41D9113DD00B8D1A5"
+            BuildableName = "TableViewCellImageAsynLoading.framework"
+            BlueprintName = "TableViewCellImageAsynLoading"
+            ReferencedContainer = "container:TableViewCellImageAsynLoading.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +60,15 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "963574A41D9113DD00B8D1A5"
+            BuildableName = "TableViewCellImageAsynLoading.framework"
+            BlueprintName = "TableViewCellImageAsynLoading"
+            ReferencedContainer = "container:TableViewCellImageAsynLoading.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

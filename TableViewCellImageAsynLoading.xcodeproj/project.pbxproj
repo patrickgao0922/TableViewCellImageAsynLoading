@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		963574AA1D9113DD00B8D1A5 /* TableViewCellImageAsynLoading.h in Headers */ = {isa = PBXBuildFile; fileRef = 963574A81D9113DD00B8D1A5 /* TableViewCellImageAsynLoading.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		963574B21D91144D00B8D1A5 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963574B01D91144D00B8D1A5 /* ImageDownloader.swift */; };
+		963574B31D91144D00B8D1A5 /* TableViewImageLoadingCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963574B11D91144D00B8D1A5 /* TableViewImageLoadingCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		963574A51D9113DD00B8D1A5 /* TableViewCellImageAsynLoading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TableViewCellImageAsynLoading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		963574A81D9113DD00B8D1A5 /* TableViewCellImageAsynLoading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TableViewCellImageAsynLoading.h; sourceTree = "<group>"; };
 		963574A91D9113DD00B8D1A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		963574B01D91144D00B8D1A5 /* ImageDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		963574B11D91144D00B8D1A5 /* TableViewImageLoadingCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewImageLoadingCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,8 @@
 			children = (
 				963574A81D9113DD00B8D1A5 /* TableViewCellImageAsynLoading.h */,
 				963574A91D9113DD00B8D1A5 /* Info.plist */,
+				963574B01D91144D00B8D1A5 /* ImageDownloader.swift */,
+				963574B11D91144D00B8D1A5 /* TableViewImageLoadingCoordinator.swift */,
 			);
 			path = TableViewCellImageAsynLoading;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 					963574A41D9113DD00B8D1A5 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 8387LU2S3Z;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -132,6 +139,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				963574B21D91144D00B8D1A5 /* ImageDownloader.swift in Sources */,
+				963574B31D91144D00B8D1A5 /* TableViewImageLoadingCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +249,7 @@
 		963574AE1D9113DD00B8D1A5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8387LU2S3Z;
@@ -252,6 +262,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.patrickgao.TableViewCellImageAsynLoading;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -259,6 +270,7 @@
 		963574AF1D9113DD00B8D1A5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8387LU2S3Z;
